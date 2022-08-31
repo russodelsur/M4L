@@ -35,7 +35,7 @@ export default function Leaf() {
     >
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-        url="https://api.maptiler.com/maps/uk-openzoomstack-road/256/{z}/{x}/{y}@2x.png?key=yJ8DMC9rhQCPbGyOdPeD	"
+        url="https://api.maptiler.com/maps/uk-openzoomstack-light/256/{z}/{x}/{y}.png?key=yJ8DMC9rhQCPbGyOdPeD"
         // url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       <TopoJSON className={classes.svg} data={geoUrlSou} />
