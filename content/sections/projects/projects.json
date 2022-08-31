@@ -2,10 +2,13 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "✅ Free account",
+      "colour": "DetailsFree",
+      "title": "£0",
+      "productOne": "X5 Tailored proposed properties",
+      "productTwo": "House report",
+      "productThree": "Concept design",
+      "tags": ["Limited Access to M4L App","Bespoke house search", "House Report", "Concept Design"],
       "image": {
         "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
         "alt": "Quick Setup",
@@ -24,10 +27,33 @@
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "category": "➕ Standard account",
+      "colour": "DetailsStandard",
+      "title": "£250",
+      "productOne": "X5 Tailored proposed properties",
+      "productTwo": "X1 House report included",
+      "productThree": "Concept design",
+      "tags": ["Limited Access to M4L App","Bespoke house search", "House Report", "Concept Design"],
+      "image": {
+        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🪙 Premium account",
+      "colour": "var(--account-premium)",
+      "title": "£600",
+      "productOne": "x10 Tailored proposed properties",
+      "productTwo": "x1 House report included",
+      "productThree": "x1 Concept design included",
+      "tags": ["Limited Access to M4L App","Bespoke house search", "House Report", "Concept Design"],
       "image": {
         "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
         "alt": "Extendable Layout"
@@ -39,10 +65,12 @@
         }
       ]
     }
+
   ],
   "button": {
     "visible": true,
-    "label": "Visit on Github",
-    "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+    "label": "Visit the App",
+    "url": "../mapsapp"
   }
+
 }

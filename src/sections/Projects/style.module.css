@@ -1,0 +1,20 @@
+.Projects {
+    display: flex;
+    margin-top: -2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.MoreProjects {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .Projects {
+        margin-top: 0;
+    }
+    .MoreProjects {
+        margin-top: 0;
+    }
+}

@@ -1,58 +1,82 @@
 {
   "interests": [
     {
-      "label": "Quick and Easy Setup",
+      "label": "Map App with Digestable Data",
+      "body": "Our plataform offers the data you might need on a way you can digest.",
       "image": {
-        "src": "../../images/joystick.png",
+        "src": "../../images/bedroom.png",
         "alt": ""
       }
     },
     {
-      "label": "Content via Markdown",
+      "label": "House Report",
+      "body": "Personalized house report with comprehesive data. One of our team will visit the property for you",
       "image": {
-        "src": "../../images/notebook.png",
+        "src": "../../images/housereport.png",
         "alt": ""
       }
     },
     {
-      "label": "Responsive Design",
+      "label": "Architectural Design",
+      "body": "we make your house report",
       "image": {
-        "src": "../../images/nail-polish.png",
+        "src": "../../images/pexels-kaboompics-com-5621 (1).jpg",
         "alt": ""
       }
     },
     {
-      "label": "Medium Integration",
+      "label": "Interior Design",
+      "body": "we make your house report",
       "image": {
-        "src": "../../images/medium.png",
+        "src": "../../images/pexels-pixabay-276267.jpg",
         "alt": ""
       }
     },
     {
-      "label": "Animations",
+      "label": "Bespoke Furniture",
+      "body": "Fully customized furniture, designed and manufactured to order by our partners.",
       "image": {
-        "src": "../../images/gem-stone.png",
+        "src": "../../images/pexels-max-vakhtbovych-6508354.jpg",
         "alt": ""
       }
     },
     {
-      "label": "PWA (Offline Support)",
+      "label": "Planning and Building Control",
+      "body": "we make your house report",
       "image": {
-        "src": "../../images/mobile-phone.png",
+        "src": "../../images/pexels-max-vakhtbovych-6508354.jpg",
         "alt": ""
       }
     },
     {
-      "label": "Modern Tech-Stack",
+      "label": "Managing construction",
+      "body": "we make your house report",
       "image": {
-        "src": "../../images/gatsby.png",
+        "src": "../../images/pexels-pixabay-276267.jpg",
         "alt": ""
       }
     },
     {
-      "label": "Blazing Fast",
+      "label": "3D Modeling and Rendering",
+      "body": "We build 3D models and visual renders of the property.",
       "image": {
-        "src": "../../images/high-voltage.png",
+        "src": "../../images/bedroom.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Mortage Solicitors",
+      "body": "we make your house report",
+      "image": {
+        "src": "../../images/pexels-andrea-piacquadio-3760067 (1).jpg",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Any 3rd party contractors",
+      "body": "We work with local plumbers, electricians, locksmiths..etc",
+      "image": {
+        "src": "../../images/pexels-andrea-piacquadio-3760067 (1).jpg",
         "alt": ""
       }
     }
@@ -60,6 +84,6 @@
   "button": {
     "visible": true,
     "label": "+ Load More",
-    "initiallyShownInterests": 5
+    "initiallyShownInterests": 10
   }
 }

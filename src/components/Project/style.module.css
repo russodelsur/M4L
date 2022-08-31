@@ -1,0 +1,145 @@
+.Project {
+    display: contents;
+    flex-direction: column-reverse;
+    align-items: center;
+    white-space: normal;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    flex-shrink: 0;
+}
+
+.Project:nth-child(1){ border:  0.06rem solid var(--account-free); }
+.Project:nth-child(2){ border:  0.06rem solid var(--account-standard); }
+.Project:nth-child(3){ border:  0.06rem solid var(--account-premium); }
+.Project:nth-child(4){ background:blue; }
+
+.Project .Details {
+    width: 100%;
+    max-width: 19rem;
+    min-width: 15rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: inherit;
+    border-radius: var(--border-radius);
+    background: var(--card-background-color);
+}
+
+.Project .Details:hover {
+
+    transition: 0.3s;
+    border: 0.08rem solid var(--code-block-fun);
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.Project .Details .Category {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    letter-spacing: +1px;
+}
+
+.Project .Details .Title {
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+    font-weight: 700;
+}
+
+.Project .Details .Text {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 400;
+}
+
+.Project .Details .Tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+    line-height: 1.2rem;
+}
+
+.Project .Details .Tags span {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Project .Details .Links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.Project .Details .Links a {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.Project .Details .Links svg {
+    width: 1.3rem;
+    height: 1.3rem;
+    transition: all 0.3s ease-out;
+}
+
+.Project .Details .Links svg:hover {
+    fill: var(--primary-color);
+}
+
+.Project .ProjectImageWrapper {
+    width: 100%;
+    max-width: 25rem;
+    height: 15rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 2.5rem var(--box-shadow-color);
+    transition: all 0.3s ease-out;
+}
+
+.Project .ProjectImageWrapper:hover {
+    transform: translate3d(0px, -0.125rem, 0px);
+    box-shadow: 0 0 2.5rem var(--box-shadow-hover-color);
+}
+
+.Project .ProjectImage {
+    border-radius: var(--border-radius);
+    vertical-align: bottom;
+
+}
+
+.Project .Image {
+
+    position: relative;
+    vertical-align: bottom;
+}
+
+@media (min-width: 480px) {
+    .Project {
+        max-width: 25rem;
+        padding-right: 5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .Project {
+        justify-content: space-between;
+        flex-shrink: 1;
+        max-width: 62.5rem;
+        margin-bottom: 8rem;
+        padding-right: 0;
+        flex-direction: row;
+    }
+    .Project .Details {
+        margin-top: 0;
+    }
+    .Project .ProjectImageWrapper {
+        height: 18.75rem;
+    }
+}
