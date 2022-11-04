@@ -1,13 +1,13 @@
 {
   "name": "MADE4LIVING",
-  "email": "example@mail.com",
-  "description": "If you have any problems with this theme, create an issue in the GitHub repository.",
+  "email": "info@made4living.co.uk",
+  "description": "We would love to hear from you.",
   "image": {
     "src": "../../images/favicon.png",
     "alt": "Gatsby Logo"
   },
   "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "from": ["LinkedIn", "Medium", "Mail"],
     "showIcons": true
   }
 }

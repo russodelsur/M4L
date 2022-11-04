@@ -1,23 +1,23 @@
 {
   "siteMetadata": {
     "language": "en",
-    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Made4Living",
-    "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
-    "author": "Konstantin Münster",
+    "siteUrl": "https://made4living.co.uk/",
+    "title": "MADE 4 LIVING.",
+    "titleTemplate": "MADE4LIVING - Property made easy",
+    "description": "Property made easy",
+    "author": "Ruslan Sanakoev",
     "avatar": "../content/images/gatsby.png",
     "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
     "social": {
       "behance": "https://behance.com",
       "github": "https://github.com/konstantinmuenster",
       "medium": "https://konstantinmuenster.medium.com",
-      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
-      "mail": "mailto:mail@konstantin.digital"
+      "linkedin": "https://www.linkedin.com/company/made-4-living/about/",
+      "mail": "mailto:info@made4living.co.uk"
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "Made4Living" },
+    "logo": { "text": "MADE 4 LIVING." },
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
@@ -26,8 +26,8 @@
       ],
       "ctaButton": {
         "openNewTab": false,
-        "label": "App",
-        "url": "../mapsapp"
+        "label": "APP COMING SOON",
+        "url": ""
       },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },
@@ -37,7 +37,7 @@
     "featureToggles": {
       "useDarkModeAsDefault": false,
       "useDarkModeBasedOnUsersPreference": false,
-      "useCookieBar": false
+      "useCookieBar": true
     }
   }
 }

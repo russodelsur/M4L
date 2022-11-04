@@ -22,16 +22,32 @@
     align-items: center;
 }
 
+.Dis {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Dis a {
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--background-color);
+    letter-spacing: 1px;
+    margin-right: 2rem;
+}
+
 .Links {
     width: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .Links a {
     font-size: 0.875rem;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
     color: var(--background-color);
     letter-spacing: 1px;

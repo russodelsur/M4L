@@ -72,7 +72,7 @@
     font-size: 1rem;
     font-weight: 700;
     text-align: center;
-    color: var(--primary-color);
+    color: var(--text-color);
     padding: 0;
     margin-right: 4rem;
 }
@@ -143,7 +143,7 @@
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
-    color: var(--primary-color);
+    color: var(--text-color);
     padding: 1.5rem 0;
 }
 

@@ -16,9 +16,9 @@ export default function IndexPage() {
         <HeroSection sectionId="hero" />
         <AboutSection sectionId="about" heading="About us" />
         {/* <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} /> */}
-        <InterestsSection sectionId="details" heading="Our services" />
-        <ProjectsSection sectionId="ourservices" heading="Account types" />
-        <ContactSection sectionId="contactus" heading="Issues?" />
+        <InterestsSection sectionId="ourservices" heading="Our services" />
+        {/* <ProjectsSection sectionId="ourservices" heading="Account types" /> */}
+        <ContactSection sectionId="contactus" heading="Contact us" />
       </Page>
     </>
   );

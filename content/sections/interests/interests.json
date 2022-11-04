@@ -18,7 +18,7 @@
     },
     {
       "label": "Architectural Design",
-      "body": "we make your house report",
+      "body": "No project is too big, or too small. We will provide an architectural design services tailored to your needs throughout all RIBA stages.",
       "image": {
         "src": "../../images/pexels-kaboompics-com-5621 (1).jpg",
         "alt": ""
@@ -26,7 +26,7 @@
     },
     {
       "label": "Interior Design",
-      "body": "we make your house report",
+      "body": "Our team of experienced designers are trained to deliver your dream home.",
       "image": {
         "src": "../../images/pexels-pixabay-276267.jpg",
         "alt": ""
@@ -34,7 +34,7 @@
     },
     {
       "label": "Bespoke Furniture",
-      "body": "Fully customized furniture, designed and manufactured to order by our partners.",
+      "body": "Fully customized furniture and fixed joineries. Designed and manufactured to order.",
       "image": {
         "src": "../../images/pexels-max-vakhtbovych-6508354.jpg",
         "alt": ""
@@ -42,7 +42,7 @@
     },
     {
       "label": "Planning and Building Control",
-      "body": "we make your house report",
+      "body": "Get your planning approval with our team. We will manage every step of the process",
       "image": {
         "src": "../../images/pexels-max-vakhtbovych-6508354.jpg",
         "alt": ""
@@ -50,15 +50,15 @@
     },
     {
       "label": "Managing construction",
-      "body": "we make your house report",
+      "body": "We can be your best asset on site during construction. Making sure everything is running smoothly and according to plan.",
       "image": {
-        "src": "../../images/pexels-pixabay-276267.jpg",
+        "src": "../../images/pexels-anamul-rezwan-1216589.jpg",
         "alt": ""
       }
     },
     {
       "label": "3D Modeling and Rendering",
-      "body": "We build 3D models and visual renders of the property.",
+      "body": "Visualize your future home with our photorealistic renderings.",
       "image": {
         "src": "../../images/bedroom.png",
         "alt": ""
@@ -66,7 +66,7 @@
     },
     {
       "label": "Mortage Solicitors",
-      "body": "we make your house report",
+      "body": "Need help with financing? We can connect you with the professionals that you need.",
       "image": {
         "src": "../../images/pexels-andrea-piacquadio-3760067 (1).jpg",
         "alt": ""
@@ -76,7 +76,7 @@
       "label": "Any 3rd party contractors",
       "body": "We work with local plumbers, electricians, locksmiths..etc",
       "image": {
-        "src": "../../images/pexels-andrea-piacquadio-3760067 (1).jpg",
+        "src": "../../images/pexels-tima-miroshnichenko-6474205.jpg",
         "alt": ""
       }
     }

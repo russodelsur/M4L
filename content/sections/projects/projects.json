@@ -68,7 +68,7 @@
 
   ],
   "button": {
-    "visible": true,
+    "visible": false,
     "label": "Visit the App",
     "url": "../mapsapp"
   }

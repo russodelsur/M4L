@@ -31,8 +31,8 @@ export function ProjectsSection(props: PageSection): React.ReactElement {
                         />
                     </Animation>
                 )}
+                <TableApp />
             </Section>
-            <TableApp/>
         </Animation>
 
     );

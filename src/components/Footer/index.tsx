@@ -22,9 +22,11 @@ export function Footer(): React.ReactElement {
                 <Link to="/" aria-label="home">
                     <Logo
                         fontSize="1.5rem"
+                        fontFamily="Museo Sans 700"
                         color={darkModeEnabled ? 'var(--primary-color)' : 'var(--background-color)'}
                     />
                 </Link>
+
                 <div className={classes.Links}>
                     {siteConfiguration.navigation.footer.map((linkObject, key) => {
                         return (
