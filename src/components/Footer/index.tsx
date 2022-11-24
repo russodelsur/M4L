@@ -26,7 +26,6 @@ export function Footer(): React.ReactElement {
                         color={darkModeEnabled ? 'var(--primary-color)' : 'var(--background-color)'}
                     />
                 </Link>
-
                 <div className={classes.Links}>
                     {siteConfiguration.navigation.footer.map((linkObject, key) => {
                         return (

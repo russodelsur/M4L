@@ -17,18 +17,10 @@
       }
     },
     {
-      "label": "Architectural Design",
+      "label": "Architectural & Interior Design",
       "body": "No project is too big, or too small. We will provide an architectural design services tailored to your needs throughout all RIBA stages.",
       "image": {
         "src": "../../images/pexels-kaboompics-com-5621 (1).jpg",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Interior Design",
-      "body": "Our team of experienced designers are trained to deliver your dream home.",
-      "image": {
-        "src": "../../images/pexels-pixabay-276267.jpg",
         "alt": ""
       }
     },
@@ -61,14 +53,6 @@
       "body": "Visualize your future home with our photorealistic renderings.",
       "image": {
         "src": "../../images/bedroom.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Mortage Solicitors",
-      "body": "Need help with financing? We can connect you with the professionals that you need.",
-      "image": {
-        "src": "../../images/pexels-andrea-piacquadio-3760067 (1).jpg",
         "alt": ""
       }
     },
