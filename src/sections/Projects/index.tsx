@@ -7,7 +7,6 @@ import { Project } from '../../components/Project';
 import { PageSection } from '../../types';
 import { useLocalDataSource } from './data';
 import * as classes from './style.module.css';
-import  TableApp  from '../../components/Table/TableApp'
 
 export function ProjectsSection(props: PageSection): React.ReactElement {
     const response = useLocalDataSource();
@@ -31,7 +30,6 @@ export function ProjectsSection(props: PageSection): React.ReactElement {
                         />
                     </Animation>
                 )}
-                <TableApp />
             </Section>
         </Animation>
 

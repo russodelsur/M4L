@@ -65,19 +65,15 @@
     "gatsby-transformer-json": "^4.18.0",
     "gatsby-transformer-remark": "^5.18.1",
     "gatsby-transformer-sharp": "^4.18.1",
-    "leaflet": "^1.8.0",
     "normalize.css": "^8.0.1",
     "prismjs": "^1.28.0",
     "react-cookie-consent": "^6.4.1",
     "react-helmet": "^6.1.0",
-    "react-simple-maps": "^2.3.0",
-    "react-table": "^7.8.0",
     "reading-time": "^1.5.0",
     "sharp": "^0.31.2",
     "slugify": "^1.6.5",
     "tiny-skeleton-loader-react": "^1.1.8",
-    "topojson-client": "^3.1.0",
-    "ukpd": "^4.0.0"
+    "webpack-filter-warnings-plugin": "^1.2.1"
   },
   "homepage": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal#readme",
   "repository": {

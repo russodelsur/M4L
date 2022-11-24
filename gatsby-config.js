@@ -1,5 +1,18 @@
 const path = require('path');
 
+const FilterWarningsPlugin = require("webpack-filter-warnings-plugin");
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    plugins: [
+      new FilterWarningsPlugin({
+        exclude:
+          /mini-css-extract-plugin[^]*Conflicting order. Following module has been added:/,
+      }),
+    ],
+  });
+};
+
 module.exports = {
     siteMetadata: {
         // If you didn't use the resolveSiteUrl option this needs to be set
@@ -11,6 +24,72 @@ module.exports = {
         "gatsby-plugin-sitemap",
         `gatsby-plugin-offline`,
         `gatsby-plugin-image`,
+        {
+            resolve: 'gatsby-plugin-robots-txt',
+            options: {
+              host: 'https://www.made4living.co.uk',
+              sitemap: 'https://www.made4living.co.uk/sitemap.xml',
+              policy: [{userAgent: '*', allow: '/'}]
+            }
+          },
+          
+          {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                favicon: "./content/images/favicon.png", // Path is relative to the root
+                siteName: "My Minimal Portfolio", // Used in manifest.json
+                shortName: "Portfolio", // Used in manifest.json
+                startUrl: "/", // Used in manifest.json
+                backgroundColor: "#FFFFFF", // Used in manifest.json
+                themeColor: "#000000", // Used in manifest.json
+                display: "minimal-ui", // Used in manifest.json
+                icon: "./content/images/favicon.png", // Path is relative to the root
+            },
+         },
+
+         {
+            resolve: `gatsby-plugin-plausible`,
+            options: {
+              domain: `https://www.made4living.co.uk`,
+            },
+          },
+
+          {
+          resolve: `gatsby-plugin-gdpr-cookies`,
+          options: {
+            googleAnalytics: {
+              trackingId: 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID', // leave empty if you want to disable the tracker
+              cookieName: 'gatsby-gdpr-google-analytics', // default
+              anonymize: true, // default
+              allowAdFeatures: false // default
+            },
+            googleTagManager: {
+              trackingId: 'YOUR_GOOGLE_TAG_MANAGER_TRACKING_ID', // leave empty if you want to disable the tracker
+              cookieName: 'gatsby-gdpr-google-tagmanager', // default
+              dataLayerName: 'dataLayer', // default
+            },
+            facebookPixel: {
+              pixelId: 'YOUR_FACEBOOK_PIXEL_ID', // leave empty if you want to disable the tracker
+              cookieName: 'gatsby-gdpr-facebook-pixel', // default
+            },
+            tikTokPixel: {
+              pixelId: 'YOUR_TIKTOK_PIXEL_ID', // leave empty if you want to disable the tracker
+              cookieName: 'gatsby-gdpr-tiktok-pixel', // default
+            },
+            hotjar: {
+              hjid: 'YOUR_HOTJAR_ID',
+              hjsv: 'YOUR_HOTJAR_SNIPPET_VERSION',
+              cookieName: 'gatsby-gdpr-hotjar', // default
+            },
+            linkedin: {
+              trackingId: 'YOUR_LINKEDIN_TRACKING_ID', // leave empty if you want to disable the tracker
+              cookieName: 'gatsby-gdpr-linked-in', // default
+            },
+            // defines the environments where the tracking should be available  - default is ["production"]
+            environments: ['production', 'development']
+          },
+        },
+
         {
             resolve: `gatsby-plugin-sharp`,
             options: {
@@ -74,72 +153,7 @@ module.exports = {
                             escapeEntities: {},
                         },
                     },
-                    
-                    {
-                        resolve: 'gatsby-plugin-robots-txt',
-                        options: {
-                          host: 'https://www.made4living.co.uk',
-                          sitemap: 'https://www.made4living.co.uk/sitemap.xml',
-                          policy: [{userAgent: '*', allow: '/'}]
-                        }
-                      },
-                      
-                      {
-                        resolve: `gatsby-plugin-manifest`,
-                        options: {
-                            favicon: "./content/images/favicon.png", // Path is relative to the root
-                            siteName: "My Minimal Portfolio", // Used in manifest.json
-                            shortName: "Portfolio", // Used in manifest.json
-                            startUrl: "/", // Used in manifest.json
-                            backgroundColor: "#FFFFFF", // Used in manifest.json
-                            themeColor: "#000000", // Used in manifest.json
-                            display: "minimal-ui", // Used in manifest.json
-                            icon: "./content/images/favicon.png", // Path is relative to the root
-                        },
-                     },
-
-                     {
-                        resolve: `gatsby-plugin-plausible`,
-                        options: {
-                          domain: `https://www.made4living.co.uk`,
-                        },
-                      },
-
-                      {
-                      resolve: `gatsby-plugin-gdpr-cookies`,
-                      options: {
-                        googleAnalytics: {
-                          trackingId: 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID', // leave empty if you want to disable the tracker
-                          cookieName: 'gatsby-gdpr-google-analytics', // default
-                          anonymize: true, // default
-                          allowAdFeatures: false // default
-                        },
-                        googleTagManager: {
-                          trackingId: 'YOUR_GOOGLE_TAG_MANAGER_TRACKING_ID', // leave empty if you want to disable the tracker
-                          cookieName: 'gatsby-gdpr-google-tagmanager', // default
-                          dataLayerName: 'dataLayer', // default
-                        },
-                        facebookPixel: {
-                          pixelId: 'YOUR_FACEBOOK_PIXEL_ID', // leave empty if you want to disable the tracker
-                          cookieName: 'gatsby-gdpr-facebook-pixel', // default
-                        },
-                        tikTokPixel: {
-                          pixelId: 'YOUR_TIKTOK_PIXEL_ID', // leave empty if you want to disable the tracker
-                          cookieName: 'gatsby-gdpr-tiktok-pixel', // default
-                        },
-                        hotjar: {
-                          hjid: 'YOUR_HOTJAR_ID',
-                          hjsv: 'YOUR_HOTJAR_SNIPPET_VERSION',
-                          cookieName: 'gatsby-gdpr-hotjar', // default
-                        },
-                        linkedin: {
-                          trackingId: 'YOUR_LINKEDIN_TRACKING_ID', // leave empty if you want to disable the tracker
-                          cookieName: 'gatsby-gdpr-linked-in', // default
-                        },
-                        // defines the environments where the tracking should be available  - default is ["production"]
-                        environments: ['production', 'development']
-                      },
-                    },
+            
                     
 
                 ],
